@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.row {
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+h3,
+h2,
+h5, 
+h1,
+h4{
+    text-align: center;
+    color: #b10a79;
+}
+
+@media(max-widht: 1000px) {
+  #footer {
+      position: static;
+      width: auto;
+  }
+
+}

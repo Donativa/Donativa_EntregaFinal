@@ -1,0 +1,62 @@
+.card {
+    width: 18rem;
+    height: 33rem;
+    border-radius: 10px;
+    box-shadow: 6px 4px 6px #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#img-card {
+    width: 100%;
+    border-radius: 10px;
+}
+
+figure {
+    height: 100%;
+}
+
+.texto-card {
+    position: absolute;
+    margin: 80% 10px 0 10px;
+    text-align: center;
+}
+
+.card-text h3,
+h5 {
+    text-align: center;
+    color: #b10a79;
+}
+
+.carousel-control-prev {
+    margin-left: -4rem;
+}
+
+.carousel-control-next {
+    margin-right: -4rem;
+}
+
+.carousel-indicators {
+    margin-bottom: -15px;
+}
+
+h3,
+h2,
+h5 {
+    text-align: center;
+    color: #b10a79;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .texto-card {
+        position: absolute;
+        margin-top: 70%;
+    }
+}
